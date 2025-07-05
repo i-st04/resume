@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.7.5)  5 JUL 2025 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.7.5)  6 JUL 2025 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,7 +303,7 @@ tawesome5
 
 (C:\Users\ivona\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesom
 e5-mapping.def)))
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 71
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 75
 .
 
 (C:\Users\ivona\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
@@ -312,24 +312,24 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 (ivona-resume.aux)
 \openout1 = `ivona-resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -365,7 +365,7 @@ LaTeX Font Info:    ... okay on input line 71.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 71.
+Package hyperref Info: Link coloring OFF on input line 75.
 (ivona-resume.out) (ivona-resume.out)
 \@outlinefile=\write3
 \openout3 = `ivona-resume.out'.
@@ -387,67 +387,51 @@ ii
 \everyMPtoPDFconversion=\toks25
 )
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 7
-3.
+7.
  (C:\Users\ivona\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 73.
+nput line 77.
 
 (C:\Users\ivona\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree1.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 92.
+(Font)              <10.95> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 92.
+(Font)              <8> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 92.
+(Font)              <6> on input line 85.
 
-Overfull \hbox (5.47499pt too wide) in paragraph at lines 90--101
+Overfull \hbox (2.18996pt too wide) in paragraph at lines 101--112
 [] $[]$ 
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 103.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 109.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 115.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 121.
-
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 122.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 150.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 153.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 124.
+(Font)              <5> on input line 155.
 [1
 
 {C:/Users/ivona/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ivon
 a/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/ivona/App
 Data/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 125.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-36.
+64.
 
 (C:\Users\ivona\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-Overfull \hbox (15.47527pt too wide) in paragraph at lines 137--138
+Overfull \hbox (15.47527pt too wide) in paragraph at lines 165--166
 []\T1/phv/m/n/10.95 Created an in-ter-ac-tive map com-po-nent us-ing \T1/cmtt/m
 /n/10.95 react-google-maps \T1/phv/m/n/10.95 in-te-grated with a Swiper carouse
 l. 
  []
 
 
-Overfull \hbox (26.49065pt too wide) in paragraph at lines 138--139
+Overfull \hbox (26.49065pt too wide) in paragraph at lines 166--167
 []\T1/phv/m/n/10.95 Developed dy-namic, scroll-responsive UI sec-tions us-ing \
 T1/cmtt/m/n/10.95 IntersectionObserver \T1/phv/m/n/10.95 and \T1/cmtt/m/n/10.95
  ResizeObserver\T1/phv/m/n/10.95 . 
@@ -459,16 +443,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `ivona-resume.out' has not changed.
-(rerunfilecheck)             Checksum: AB96CB419B9C2D5D224AE4868477D116;1429.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13571 strings out of 474486
- 233989 string characters out of 5743756
- 1939542 words of memory out of 5000000
- 35702 multiletter control sequences out of 15000+600000
+ 13570 strings out of 474486
+ 234132 string characters out of 5743756
+ 1941542 words of memory out of 5000000
+ 35705 multiletter control sequences out of 15000+600000
  603621 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,13n,79p,1203b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 65i,13n,79p,1203b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ivona\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1095.pk><C:/Users/ivona/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontaw
 esome5/FontAwesome5Free-Solid.pfb><C:/Users/ivona/AppData/Local/Programs/MiKTeX
@@ -476,9 +460,9 @@ esome5/FontAwesome5Free-Solid.pfb><C:/Users/ivona/AppData/Local/Programs/MiKTeX
 TeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/ivona/AppData/Local/Programs
 /MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/ivona/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on ivona-resume.pdf (2 pages, 65897 bytes).
+Output written on ivona-resume.pdf (2 pages, 63129 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
