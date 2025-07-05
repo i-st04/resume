@@ -1,0 +1,145 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+
+\definecolor{bodytext}{HTML}{444444}
+\definecolor{heading}{HTML}{000000}
+
+\color{bodytext}
+
+% Page layout and watermark setup
+\pagestyle{fancy}
+\fancyhf{}
+\geometry{margin=1in}
+
+% Watermark footer
+\fancyfoot[C]{%
+  \textcolor{bodytext}{\tiny\textsuperscript{1}This r\'esum\'e is open-source and written in \LaTeX{} – \href{https://github.com/---/---}{GitHub Project}~\faExternalLink*}
+}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0pt}
+
+% Section title formatting
+\titleformat{\section}
+  {\filcenter\Large\sffamily\bfseries\uppercase}{}{0em}{}[\vspace{1em}]
+
+\titleformat{\subsection}[runin]
+  {\sffamily\bfseries}{\hspace{-1em}}{0pt}{}[ \hfill]
+
+\titleformat{\subsubsection}[runin]
+  {\sffamily\small\bfseries}{}{0pt}{}[ -- \\]
+
+\titlespacing{\subsection}{0pt}{1em}{0.3em}
+\titlespacing{\subsubsection}{0pt}{0.2em}{0.5em}
+
+% Name and contact formatting
+\renewcommand{\maketitle}{
+  \begin{center}
+    {\huge\bfseries \theauthor} \\[0.3em]
+    {\large\sffamily Junior Web developer} \\[0.3em]
+    \small\sffamily
+    Dunavskih virova 08, Belgrade \textbullet{}
+    \href{tel:+381644745664}{(+ 381) 64 4745664} \textbullet{}
+    \href{mailto:ivona.stankovic04@gmail.com}{ivona.stankovic04@gmail.com} \\[0.75em]
+    
+    \textcolor{bodytext}{
+      {\footnotesize GitHub:} \href{https://github.com/i-st04}{i-st04~\textcolor{gray}{\faExternalLink*}} \quad |
+  {\footnotesize LinkedIn:} \href{https://www.linkedin.com/in/ivona-stanković-724b0935a/}{Ivona Stankovic ~\textcolor{gray}{\faExternalLink*}} \quad
+    }
+  \end{center}
+  \vspace{1em}
+  \hrule
+  \vspace{0em}
+}
+
+\title{Résumé}
+\author{Ivona Stankovic}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Education}
+
+\subsection*{Electrical Engineering High School "Nikola Tesla" \hfill Sep 2019 -- May 2023 \\}
+\textbf{Major:} Network and System Administration
+
+\subsection*{Cubes School \hfill Oct 2023 -- Oct 2024 \\}
+\textbf{Specialization:} JavaScript and React.js Development Course
+
+
+\section*{Skills}
+
+\subsubsection*{Languages}
+
+\par
+
+\noindent
+\begin{minipage}{\linewidth}
+\begin{tabular}{@{}ll}
+\textbf{Programming:}   & JavaScript, TypeScript \\
+\textbf{Libraries:}     & React.js \\
+\textbf{Markup:}        & HTML5, \LaTeX \\
+\textbf{Stylesheet:}    & CSS \\
+\textbf{Preprocessors:} & SASS \\
+\textbf{Frameworks:}    & Bootstrap, Next.js, Vue.js \\
+\end{tabular}
+\end{minipage}
+\section*{Work Experience}
+
+\subsection{Viver Caffé Playground | Kids Animator \hfill Nov 2022 -- May 2023}
+\begin{itemize}[leftmargin=*]
+  \item Supervised and cared for children in the playground; collaborated with a team of colleagues to ensure safe and engaging activities for up to 50 children.
+  \item Maintained cleanliness and addressed any issues within and around the playground.
+\end{itemize}
+
+\subsection{Viver Caffé Playground | Info Desk \hfill Nov 2022 -- Mar 2023}
+\begin{itemize}[leftmargin=*]
+  \item Managed birthday party and event reservations.
+  \item Sold playground tickets and coordinated catering for celebrations.
+\end{itemize}
+
+\subsection{Princess Puff's d.o.o | Retail Assistant \hfill Aug 2023}
+\begin{itemize}[leftmargin=*]
+  \item Sold puff doughnuts in one of Belgrade’s largest shopping malls.
+  \item Maintained a clean and sanitary workspace to ensure a professional experience for customers.
+\end{itemize}
+
+\subsection{Cubes d.o.o | Internship – Web Developer \hfill Jan 2025 -- Jul 2025}
+\textit{Hybrid}\\
+\textbf{Overview:} After completing a course at Cubes School, I was offered an internship based on my performance. This was my first real-world experience applying programming knowledge in a team setting.
+
+\textbf{Feb – Mar 2025 | Project: \textit{Magical Oasis (Next.js E-commerce Site)}}
+\begin{itemize}[leftmargin=*]
+  \item Contributed to building an e-commerce store for children’s toys from the ground up as part of a 3-person team.
+  \item Implemented secure user authentication and authorization using NextAuth.js, ensuring safe login, registration, and product saving features.
+  \item Built a fully functional shopping cart and checkout process with smooth and enjoyable user experience.
+  \item Followed clean code principles and reused components to maintain a scalable and maintainable codebase.
+\end{itemize}
+
+\textbf{Mar – Jul 2025 | Mtel Switzerland}
+\begin{itemize}[leftmargin=*]
+  \item Took part ownership of front-end development for a large-scale telecom platform, collaborating with a mentor who handled checkout logic while I focused on component architecture, page structure, and UI behavior.
+  \item Built multilingual pages and SEO-friendly sitemap views using \texttt{next-intl}, applying internationalization best practices across both desktop and mobile self-care interfaces.
+  \item Created an interactive map component using \texttt{react-google-maps} integrated with a Swiper carousel.
+  \item Developed dynamic, scroll-responsive UI sections using \texttt{IntersectionObserver} and \texttt{ResizeObserver}.
+  \item Implemented a responsive carousel system that adapted its movement based on screen width and disabled navigation buttons when reaching the end of the scroll range.
+  \item Refactored layout and DOM structure to support consistent animation triggers, scroll tracking, and hydration-safe rendering in Next.js.
+  \item Applied clean code principles and reusable logic patterns to maintain a scalable codebase, participating in code reviews and adapting quickly to production workflows.
+  \item Enjoyed collaborating closely with my colleagues throughout the project; although my internship concluded before its completion, I gained valuable experience contributing to key milestones.
+\end{itemize}
+
+\end{document}
