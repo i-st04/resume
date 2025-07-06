@@ -13,59 +13,47 @@
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 \usepackage{fontawesome5}
+\usepackage[absolute,overlay]{textpos} % floating
 
 \definecolor{bodytext}{HTML}{444444}
 \definecolor{heading}{HTML}{000000}
-
 \color{bodytext}
 
-% Page layout
-\geometry{margin=1in}
+% Adjust layout of page
+\geometry{left=5.5cm, right=1.5cm, top=0.3in, bottom=1in}
+
 \pagestyle{fancy}
 \fancyhf{}
-
-% Footer with watermark note
 \fancyfoot[C]{%
   \textcolor{bodytext}{\tiny\textsuperscript{1}This résumé is open-source and written in \LaTeX{} – \href{https://github.com/i-st04/resume}{GitHub Project \faExternalLink*}}
 }
-
 \renewcommand{\footrulewidth}{0.4pt}
 \renewcommand{\headrulewidth}{0pt}
 
-% Section title formatting for unnumbered sections
+% Section formatting
 \titleformat{name=\section,numberless}
-  {\filcenter\Large\sffamily\bfseries\uppercase}{}{0em}{}[\vspace{1em}]
-
+  {\filcenter\Large\sffamily\bfseries\uppercase}{}{0em}{}[\vspace{0.4em}]
 \titleformat{name=\subsection,numberless}[runin]
   {\sffamily\bfseries}{\hspace{-1em}}{0pt}{}[ \hfill]
-
 \titleformat{name=\subsubsection,numberless}[runin]
   {\sffamily\small\bfseries}{}{0pt}{}[ -- \\]
-
-\titlespacing{\subsection}{0pt}{0.1em}{0em}
+\titlespacing{\subsection}{0pt}{0.3em}{0em}
 \titlespacing{\subsubsection}{0pt}{0.2em}{0.2em}
-
-% Remove extra spacing in itemize
 \setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
 
-% Name and contact formatting
+% Header content
 \renewcommand{\maketitle}{
   \begin{center}
     {\huge\bfseries \theauthor} \\[0.3em]
-    {\large\sffamily Junior Web developer} \\[0.3em]
-    \small\sffamily
-    Dunavskih virova 08, Belgrade \textbullet{}
-    \href{tel:+381644745664}{(+381) 64 4745664} \textbullet{}
-    \href{mailto:ivona.stankovic04@gmail.com}{ivona.stankovic04@gmail.com} \\[0.75em]
-    
-    \textcolor{bodytext}{
-      {\footnotesize GitHub:} \href{https://github.com/i-st04}{i-st04~\textcolor{gray}{\faExternalLink*}} \quad |
-      {\footnotesize LinkedIn:} \href{https://www.linkedin.com/in/ivona-stanković-724b0935a/}{Ivona Stankovic ~\textcolor{gray}{\faExternalLink*}} \quad
-    }
+    {\large\sffamily Junior Web Developer} \\[0.75em]
+   \textcolor{bodytext}{
+  \faGithub~\href{https://github.com/i-st04}{ i-st04~\textcolor{gray}{\faExternalLink*}} \quad |
+  \faLinkedin~\href{https://www.linkedin.com/in/ivona-stanković-724b0935a/}{ Ivona Stankovic~\textcolor{gray}{\faExternalLink*}} \quad |
+  \faEnvelope~\href{mailto:ivona.stankovic04@gmail.com}{ ivona.stankovic04@gmail.com~\textcolor{gray}{\faExternalLink*}}
+}
   \end{center}
   \vspace{1em}
   \hrule
-  \vspace{0em}
 }
 
 \title{Résumé}
@@ -73,74 +61,60 @@
 \date{}
 
 \begin{document}
-
 \maketitle
 
-\section*{Education}
+% *** SKILLS SIDEBAR: ***
+\begin{textblock*}{4cm}(0.5cm, 2.5cm) % width, (x,y)
+\small
+\textbf{\large Skills} \\[-0.2em]
+\rule{2cm}{0.4pt}
 
-\subsection*{
-  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
-    Electrical Engineering High School "Nikola Tesla" & Sep 2019 -- May 2023
-  \end{tabular*}
-}
-\textbf{Major:} Network and System Administration
+\vspace{0.2em}
+\textbf{Languages:} \\
+JavaScript, TypeScript \\
+HTML5, CSS, SASS \\
+\LaTeX \\[0.5em]
 
-\subsection*{
-  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
-    Cubes School & Oct 2023 -- Oct 2024
-  \end{tabular*}
-}
-\textbf{Specialization:} JavaScript and React.js Development Course
+\textbf{Libraries/Frameworks:} \\
+React.js, Next.js, Vue.js \\
+Bootstrap
 
-\section*{Skills}
+\vspace{0.3em}
+\rule{2cm}{0.4pt}
+\end{textblock*}
 
-\subsubsection*{Languages}
-
-\par
-
-\noindent
-\begin{minipage}{\linewidth}
-\begin{tabular}{@{}ll}
-\textbf{Programming:}   & JavaScript, TypeScript \\
-\textbf{Libraries:}     & React.js \\
-\textbf{Markup:}        & HTML5, \LaTeX \\
-\textbf{Stylesheet:}    & CSS \\
-\textbf{Preprocessors:} & SASS \\
-\textbf{Frameworks:}    & Bootstrap, Next.js, Vue.js \\
-\end{tabular}
-\end{minipage}
+% *** MAIN CONTENT ***
 
 \section*{Work Experience}
+%\subsection*{
+ % \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
+%    Viver Caffé Playground | Kids Animator & Nov 2022 -- May 2023
+ % \end{tabular*}
+%}
+%\begin{itemize}
+ % \item Supervised and cared for children in the playground; collaborated with a team of colleagues to ensure safe and engaging activities for up to 50 children.
+  %\item Maintained cleanliness and addressed any issues within and around the playground.
+%\end{itemize}
 
-\subsection*{
-  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
-    Viver Caffé Playground | Kids Animator & Nov 2022 -- May 2023
-  \end{tabular*}
-}
-\begin{itemize}
-  \item Supervised and cared for children in the playground; collaborated with a team of colleagues to ensure safe and engaging activities for up to 50 children.
-  \item Maintained cleanliness and addressed any issues within and around the playground.
-\end{itemize}
+%\subsection*{
+ % \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
+  %  Viver Caffé Playground | Info Desk & Nov 2022 -- Mar 2023
+  %\end{tabular*}
+%}
+%\begin{itemize}
+  %\item Managed birthday party and event reservations.
+ % \item Sold playground tickets and coordinated catering for celebrations.
+%\end{itemize}
 
-\subsection*{
-  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
-    Viver Caffé Playground | Info Desk & Nov 2022 -- Mar 2023
-  \end{tabular*}
-}
-\begin{itemize}
-  \item Managed birthday party and event reservations.
-  \item Sold playground tickets and coordinated catering for celebrations.
-\end{itemize}
-
-\subsection*{
-  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
-    Princess Puff's d.o.o | Retail Assistant & Aug 2023
-  \end{tabular*}
-}
-\begin{itemize}
-  \item Sold puff doughnuts in one of Belgrade’s largest shopping malls.
-  \item Maintained a clean and sanitary workspace to ensure a professional experience for customers.
-\end{itemize}
+%\subsection*{
+  %\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
+   % Princess Puff's d.o.o | Retail Assistant & Aug 2023
+  %\end{tabular*}
+%}
+%\begin{itemize}
+  %\item Sold puff doughnuts in one of Belgrade’s largest shopping malls.
+  %\item Maintained a clean and sanitary workspace to ensure a professional experience for customers.
+%\end{itemize}
 
 \subsection*{
   \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
@@ -150,7 +124,19 @@
 \textit{Hybrid}\\
 \textbf{Overview:} After completing a course at Cubes School, I was offered an internship based on my performance. This was my first real-world experience applying programming knowledge in a team setting.
 
-\textbf{Feb – Mar 2025 | Project: \textit{Magical Oasis (Next.js E-commerce Site)}}
+\textbf{Mar – Jul 2025 |  Project: \textit{Mtel Switzerland (Next.js E-commerce Site)}}
+\begin{itemize}
+  \item Took part ownership of front-end development for a large-scale telecom platform, collaborating with a mentor who handled checkout logic while I focused on component architecture, page structure, and UI behavior.
+  \item Built multilingual pages and SEO-friendly sitemap views using \texttt{next-intl}, applying internationalization best practices across both desktop and mobile self-care interfaces.
+  \item Created an interactive map component using \texttt{react-google-maps} integrated with a Swiper carousel.
+  \item Developed dynamic, scroll-responsive UI sections using \texttt{IntersectionObserver} and \texttt{ResizeObserver}.
+  %\item Implemented a responsive carousel system that adapted its movement based on screen width and disabled navigation buttons when reaching the end of the scroll range.
+  \item Refactored layout and DOM structure to support consistent animation triggers, scroll tracking, and hydration-safe rendering in Next.js.
+  \item Applied clean code principles and reusable logic patterns to maintain a scalable codebase, participated in code reviews and adapted quickly to production workflows.
+  \item Enjoyed collaborating closely with my colleagues throughout the project; although my internship concluded before its completion, I gained valuable experience contributing to key milestones.
+\end{itemize}
+
+\textbf{Jan – Mar 2025 | Project: \textit{Magical Oasis (Next.js E-commerce Site)}}
 \begin{itemize}
   \item Contributed to building an e-commerce store for children’s toys from the ground up as part of a 3-person team.
   \item Implemented secure user authentication and authorization using NextAuth.js, ensuring safe login, registration, and product saving features.
@@ -158,16 +144,20 @@
   \item Followed clean code principles and reused components to maintain a scalable and maintainable codebase.
 \end{itemize}
 
-\textbf{Mar – Jul 2025 | Mtel Switzerland}
-\begin{itemize}
-  \item Took part ownership of front-end development for a large-scale telecom platform, collaborating with a mentor who handled checkout logic while I focused on component architecture, page structure, and UI behavior.
-  \item Built multilingual pages and SEO-friendly sitemap views using \texttt{next-intl}, applying internationalization best practices across both desktop and mobile self-care interfaces.
-  \item Created an interactive map component using \texttt{react-google-maps} integrated with a Swiper carousel.
-  \item Developed dynamic, scroll-responsive UI sections using \texttt{IntersectionObserver} and \texttt{ResizeObserver}.
-  \item Implemented a responsive carousel system that adapted its movement based on screen width and disabled navigation buttons when reaching the end of the scroll range.
-  \item Refactored layout and DOM structure to support consistent animation triggers, scroll tracking, and hydration-safe rendering in Next.js.
-  \item Applied clean code principles and reusable logic patterns to maintain a scalable codebase, participating in code reviews and adapting quickly to production workflows.
-  \item Enjoyed collaborating closely with my colleagues throughout the project; although my internship concluded before its completion, I gained valuable experience contributing to key milestones.
-\end{itemize}
+\section*{Education}
 
+\subsection*{
+  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
+    Cubes School & Oct 2023 -- Oct 2024
+  \end{tabular*}
+}
+\textbf{Specialization:} JavaScript and React.js Development Course
+
+
+\subsection*{
+  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l r}
+    Electrical Engineering High School "Nikola Tesla" & Sep 2019 -- May 2023
+  \end{tabular*}
+}
+\textbf{Major:} Network and System Administration
 \end{document}
