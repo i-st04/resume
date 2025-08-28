@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1754829036.66818 "/Users/ist/Desktop/Workspace/resume/ivona-resume.tex" "ivona-resume.pdf" "ivona-resume" 1754829037.15183 0
-  "/Users/ist/Desktop/Workspace/resume/ivona-resume.tex" 1754829036.42513 4550 c883d34d87f50bd8c28e723fd98ebef6 ""
+["pdflatex"] 1756379593.33048 "/Users/ist/Desktop/Workspace/resume/ivona-resume.tex" "ivona-resume.pdf" "ivona-resume" 1756379593.81098 0
+  "/Users/ist/Desktop/Workspace/resume/ivona-resume.tex" 1756379593.0925 4723 7ec2c3e8875d482a67f690f4e08075b4 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -101,9 +101,9 @@
   "/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1754784974 378253 3b76541d5011239202c282488a84f393 ""
   "/usr/local/texlive/2025basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1754781532 2663824 16ea950ece0610ee338339411b081a94 ""
   "/usr/local/texlive/2025basic/texmf.cnf" 1741448314 628 81d1ada0f601fb1ffa62f1323192d946 ""
-  "ivona-resume.aux" 1754829037.05729 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "ivona-resume.out" 1754829037.00749 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "ivona-resume.tex" 1754829036.42513 4550 c883d34d87f50bd8c28e723fd98ebef6 ""
+  "ivona-resume.aux" 1756379593.72043 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "ivona-resume.out" 1756379593.67151 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ivona-resume.tex" 1756379593.0925 4723 7ec2c3e8875d482a67f690f4e08075b4 ""
   (generated)
   "ivona-resume.aux"
   "ivona-resume.log"
